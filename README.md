@@ -1,13 +1,13 @@
 # Predicting-Heart-Disease-using-Logistic-Regression-Classification-Algorithm
-The model's CAP curve shows we are having **`92.59%`**! This means it is capable of correctly predicting **92%** of patients with a heart disease after processing 50% of the data. The model's performance is **"Too Good to be True"**! However, with **`Train accuracy = 86%`** and **`Test accuracy = 80%`**, there is no visible sign of overfitting.
+The model's CAP curve shows we are having **`100%`**! This means it is capable of correctly predicting **100%** of patients with a heart disease after processing 50% of the data. The model's performance is **"Too Good to be True"**! However, with **`Train accuracy = 86%`** and **`Test accuracy = 82%`**, there is no visible sign of overfitting.
 
 ### Observations
 * Train accuracy: `86%`
 * Test accuracy: `80%`
-* Precision is:  `80%`
-* The model gets confused in 12 cases
-    * The model classified 5 **healthy people** as having a **heart disease** (**`False Positive` or `Type I error`**)
-    * The model classified 7 **heart disease patients** as **healthy people** (**`False Negative` or `Type II error`**)
+* Precision is:  `86%`
+* The model gets confused in 11 cases
+    * The model classified 3 **healthy people** as having a **heart disease** (**`False Positive` or `Type I error`**)
+    * The model classified 8 **heart disease patients** as **healthy people** (**`False Negative` or `Type II error`**)
     
 * The number of wrong predictions remains 12. However, **the number of FN has dropped from 8 to 7**. Which is good news for model's **precision** score.
 * With a test accuracy of `80%`, the model is not doing badly, but it's not good enough for the application of detecting heart disease
