@@ -1,0 +1,2 @@
+# Predicting-Heart-Disease-using-Logistic-Regression-Classification-Algorithm
+The model's CAP curve shows we are having **`92.59%`**! This means it is capable of correctly predicting **92%** of patients with a heart disease after processing 50% of the data. The model's performance is **"Too Good to be True"**! However, with **`Train accuracy = 86%`** and **`Test accuracy = 80%`**, there is no visible sign of overfitting.
